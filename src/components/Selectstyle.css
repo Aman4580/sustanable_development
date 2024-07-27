@@ -1,0 +1,42 @@
+.bg-light {
+  background: #f4f4f9; /* Light grey background */
+}
+
+.choices__list--dropdown .choices__item--selectable {
+  padding-right: 1rem;
+}
+
+.choices__list--single {
+  padding: 0;
+}
+
+.choices[data-type*=select-one]:after {
+  right: 1.5rem;
+}
+
+.shadow {
+  box-shadow: 0.3rem 0.3rem 1rem rgba(178, 200, 244, 0.23);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+select {
+  background-image: linear-gradient(to bottom right, #e0e0e0, #c0c0c0); /* Updated gradient */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.select-heading {
+  font-family: 'Righteous', cursive;
+}
+
+select option {
+  background-color: #e0e0e0; /* Light grey background for options */
+}
+
+option:not(:checked) {
+  background-color: #c0c0c0; /* Slightly darker grey for unchecked options */
+}
