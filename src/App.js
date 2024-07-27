@@ -30,7 +30,6 @@ function App() {
           <Route exact path="/marketplace" element={<Homepage/>} />
           <Route exact path="/review/cart" element={<CartReview/>} />
           <Route exact path="/food/details/:keys" element={<CropDetails/>} /> */}
-         
         </Routes>
 
     </Router>
