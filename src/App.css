@@ -3,6 +3,8 @@
 #root{
   min-height: 100vh;
 }
+
+
 .body{
    background-color:#D1E8B6; 
   background-image:url('./images/farmer.jpg');
