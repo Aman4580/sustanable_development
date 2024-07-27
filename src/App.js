@@ -31,7 +31,6 @@ function App() {
           <Route exact path="/review/cart" element={<CartReview/>} />
           <Route exact path="/food/details/:keys" element={<CropDetails/>} /> */}
         </Routes>
-
     </Router>
   );
 }
