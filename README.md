@@ -1,18 +1,19 @@
-# AgroInOne
+# AgroNexus
 
 
 
-https://user-images.githubusercontent.com/100196185/232319587-48aabadc-fb3c-4f7e-850a-c7b5de9511d3.mp4
+
 
 
 
 ## Problem Statement
 
-Indian farmers face several challenges, including the lack of access to information, the inability to sell their crop production at a fair price, and difficulty in accessing government-aided schemes. These challenges often result in reduced profits, financial losses, and the inability to grow their business. Therefore, there is a need for a platform that can provide farmers with access to information, help them sell their crop production at a fair price, and provide information about government-aided schemes.
+
+Indian farmers encounter numerous challenges, such as limited access to crucial information, difficulties in selling their crops at fair prices, and obstacles in obtaining government aid. These issues often lead to diminished profits, financial losses, and hindered business growth. Consequently, there is a pressing need for a platform that offers farmers access to essential information, facilitates the fair sale of their produce, and provides comprehensive details about government-aided schemes.
 
 ## Solution
 
-The website developed for Indian farmers aims to solve the challenges mentioned above by providing a one-stop-shop platform. The website provides farmers with access to information through the Buy and Sell section, where they can buy or sell their crop production and other materials. The integration of machine learning tools in the website helps farmers predict crop production and whether they will get a loan approval. The Google Maps integration enables farmers to locate the shops easily, and the Help Desk provides instant answers to the farmers' queries. The Schemes section provides information about various government-aided schemes available in their state. The User Login section ensures that the users can access additional features such as personalized recommendations, order tracking, etc. Overall, the website addresses the challenges faced by Indian farmers, provides them with a platform to access information, and helps them grow their business.
+The website developed for Indian farmers aims to address their key challenges by offering a comprehensive, one-stop solution. This platform provides farmers with vital resources through various sections. The Buy and Sell section allows them to trade crops and other materials. Advanced machine learning tools are integrated to help farmers predict crop yields and assess loan eligibility. Google Maps integration enables easy location of nearby shops. The Help Desk offers instant responses to queries, while the Schemes section provides detailed information about government-aided programs available in each state. The User Login section grants access to additional features like personalized recommendations and order tracking. Overall, this website is designed to empower Indian farmers by providing essential information and tools to help them grow their businesses effectively.
 
 
 ## Features
