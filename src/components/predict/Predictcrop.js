@@ -33,7 +33,6 @@ const [Area, setArea] = useState();
 const [Production, setProduction] = useState();
 const [Ans, setAns] = useState();
 
-
 const handleClick = async ()=>{
 
   let ans = {
