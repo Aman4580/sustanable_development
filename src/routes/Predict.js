@@ -7,7 +7,7 @@ export default function Predict() {
     <>
     <NavBar/>
     <br/>
-     <Predictcard/>
+    <Predictcard/>
     </>
   )
 }
