@@ -12,8 +12,8 @@ import Helpdesk from "./routes/Helpdesk";
 import Predict from "./routes/Predict";
 import PredictCrop from "./routes/PredictCrop";
 import Homepage from "./routes/Homepage";
-// import CartReview from "./routes/CartReview";
-// import CropDetails from "./routes/CropDetails";
+import CartReview from "./routes/CartReview";
+import CropDetails from "./routes/CropDetails";
 import Predictloan from "./routes/Predictloan";
 
 function App() {
@@ -28,8 +28,8 @@ function App() {
           <Route exact path="/predict/crop" element={<PredictCrop />} />
           <Route exact path="/predict/loan" element={<Predictloan />} />
           <Route exact path="/marketplace" element={<Homepage/>} />
-          {/* <Route exact path="/review/cart" element={<CartReview/>} />
-          <Route exact path="/food/details/:keys" element={<CropDetails/>} /> */}
+          <Route exact path="/review/cart" element={<CartReview/>} />
+          <Route exact path="/food/details/:keys" element={<CropDetails/>} />
         </Routes>
     </Router>
   );

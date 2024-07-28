@@ -196,6 +196,7 @@ a, a:hover {
     background: #e1e5ea;
   }
 }
+
 /* COLORS */
 .postcard .postcard__tagbox .green.play:hover {
   background: #79dd09;
@@ -293,29 +294,6 @@ a, a:hover {
   }
 
   .blue:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+    background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50)
   }
-
-  .red::before {
-    background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
-  }
-
-  .red:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
-  }
-
-  .yellow::before {
-    background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);
-  }
-
-  .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
-  }
-}
-
-
-
-.scheme-heading{
-  text-align:center;
-  font-family:cursive;
 }
