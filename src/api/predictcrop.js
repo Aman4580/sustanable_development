@@ -4,7 +4,7 @@ export const PredictCrop = async (inputData) => {
   try {
     const options = {
         method: 'POST',
-        url: 'https://agroinone.post.rohankm.live//get_selected_value',
+        url: 'backend url',
         headers: {
           'content-type': 'application/json',
         },
