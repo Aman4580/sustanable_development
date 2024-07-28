@@ -59,6 +59,7 @@ export default function PredictLoan() {
             id="genderDropdown"
             value={Gender}
             onChange={(e) => setGender(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               Select Gender
@@ -75,6 +76,7 @@ export default function PredictLoan() {
             id="maritalDropdown"
             value={Married}
             onChange={(e) => setMarried(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               Select Marital Status
@@ -91,6 +93,7 @@ export default function PredictLoan() {
             id="dependentDropdown"
             value={Dependent}
             onChange={(e) => setDependent(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               People dependent on your income
@@ -109,6 +112,7 @@ export default function PredictLoan() {
             id="educationDropdown"
             value={Education}
             onChange={(e) => setEducation(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               Select education
@@ -125,6 +129,7 @@ export default function PredictLoan() {
             id="selfEmpDropdown"
             value={SelfEmp}
             onChange={(e) => setSelfEmp(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               Self Employed status
@@ -142,6 +147,7 @@ export default function PredictLoan() {
             className="form-control"
             value={ApInc}
             onChange={(e) => setApInc(e.target.value)}
+            required
           />
         </div>
 
@@ -153,6 +159,7 @@ export default function PredictLoan() {
             className="form-control"
             value={CoInc}
             onChange={(e) => setCoInc(e.target.value)}
+            required
           />
         </div>
 
@@ -164,6 +171,7 @@ export default function PredictLoan() {
             className="form-control"
             value={LoanAmount}
             onChange={(e) => setLoanAmount(e.target.value)}
+            required
           />
         </div>
 
@@ -175,6 +183,7 @@ export default function PredictLoan() {
             className="form-control"
             value={Loanterm}
             onChange={(e) => setLoanterm(e.target.value)}
+            required
           />
         </div>
 
@@ -185,6 +194,7 @@ export default function PredictLoan() {
             id="creditHistoryDropdown"
             value={Credithistory}
             onChange={(e) => setCredithistory(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               Any dues left or completed?
@@ -201,6 +211,7 @@ export default function PredictLoan() {
             id="areaDropdown"
             value={Area}
             onChange={(e) => setArea(e.target.value)}
+            required
           >
             <option value="" disabled hidden>
               Property Area Type

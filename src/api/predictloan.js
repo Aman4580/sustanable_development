@@ -4,7 +4,7 @@ export const Predictloan = async (inputData) => {
   try {
     const options = {
         method: 'POST',
-        url: 'https://agroinone.post.rohankm.live//loan_predicted_value',
+        url: 'backend url',
         headers: {
           'content-type': 'application/json',
         },
