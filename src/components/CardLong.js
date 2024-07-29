@@ -4,10 +4,6 @@ import image from "../images/image.png"
 import Container from 'react-bootstrap/Container';
 import  '../App.css'
 import { Wave } from 'react-animated-text';
-
-
-
-
 function CardLong() {
   return (
     <>
