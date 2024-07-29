@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Crop.css";
 import demoData from "../Demodata/demo";
 import FoodCategory from "../FoodCategory/FoodCategory";
+
 /**
  * Food component to find foods according to category
  */
@@ -10,22 +11,49 @@ const Food = () => {
   const [foods, setFoods] = useState(data);
   const [category, setCategory] = useState("Grains");
   const selectCategory = foods.filter((cat) => cat.catagories === category);
-  /**
-   * {selectCategory} to filter food accord to category from {category}
-   */
+
   return (
     <div className="container food-header py-5">
-        {/* nav {onClick} to select food cards accord to category */}
-      <nav style={{backgroundColor: "rgb(203 203 203)" , borderRadius:'5px',width:"auto"}}>
-        <a onClick={() => setCategory("Grains")}>Grains </a>
-        <a onClick={() => setCategory("Nuts")}>Nuts</a>
-        <a onClick={() => setCategory("Oil")}>Oil</a>
+      {/* Navigation to select food cards according to category */}
+      <nav style={{ backgroundColor: "rgb(203 203 203)", borderRadius: '5px', width: "auto" }}>
+        <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', gap: '10px' }}>
+          <li>
+            <a
+              onClick={() => setCategory("Grains")}
+              role="button"
+              tabIndex={0}
+              style={{ cursor: 'pointer' }}
+            >
+              Grains
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={() => setCategory("Nuts")}
+              role="button"
+              tabIndex={0}
+              style={{ cursor: 'pointer' }}
+            >
+              Nuts
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={() => setCategory("Oil")}
+              role="button"
+              tabIndex={0}
+              style={{ cursor: 'pointer' }}
+            >
+              Oil
+            </a>
+          </li>
+        </ul>
       </nav>
       <div className="container py-5">
         <div className="row">
           {selectCategory.map((item) => (
-            <div className="col-md-4 py-3">
-              <FoodCategory items={item}/>
+            <div className="col-md-4 py-3" key={item.id}>
+              <FoodCategory items={item} />
             </div>
           ))}
         </div>
