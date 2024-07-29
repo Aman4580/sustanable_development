@@ -8,10 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../../images/logo.png'
 const Header = () => {
   return (
-   
-       
       <Container className="mt-4">
-
       <Navbar collapseOnSelect variant="dark" expand="lg" className="border-bottom border-dark">
         <Container>
           <img
@@ -36,15 +33,6 @@ const Header = () => {
               <FontAwesomeIcon icon={faShoppingCart} />
             </Link>
           </Navbar.Collapse>
-
-
-
-
-
-          
-            
-          
-          
         </Container>
       </Navbar>
     </Container>
