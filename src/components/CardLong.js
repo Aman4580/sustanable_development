@@ -19,6 +19,4 @@ function CardLong() {
   );
 }
 
-
-
 export default CardLong;
