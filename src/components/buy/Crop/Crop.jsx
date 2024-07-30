@@ -3,9 +3,6 @@ import "./Crop.css";
 import demoData from "../Demodata/demo";
 import FoodCategory from "../FoodCategory/FoodCategory";
 
-/**
- * Food component to find foods according to category
- */
 const Food = () => {
   const data = demoData;
   const [foods] = useState(data);
@@ -14,7 +11,6 @@ const Food = () => {
 
   return (
     <div className="container food-header py-5">
-      {/* Navigation to select food cards according to category */}
       <nav className="food-nav">
         <ul className="food-nav-list">
           {["Grains", "Nuts", "Oil"].map((cat) => (
