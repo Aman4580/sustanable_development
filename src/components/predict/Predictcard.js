@@ -27,7 +27,6 @@ export default function Predictcard() {
           </ul>
         </div>
       </article>
-      
       <article className="postcard dark red">
         <Link className="postcard__img_link" to="/predict/loan">
           <img className="postcard__img" src="https://picsum.photos/501/500" alt="Loan Approval Prediction" />	
