@@ -48,7 +48,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
   },
 }));
-
+// header function
 export default function Header() {
     return (
         <Container>
@@ -72,9 +72,6 @@ export default function Header() {
             >
               Check Shops Here
             </Typography>
-
-
-
             <Search>
               <SearchIconWrapper>
                 <SearchIcon />
