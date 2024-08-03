@@ -8,7 +8,7 @@ const Homepage = () => {
             <Header />
             <br />
             <Container>
-                <Crop />
+             <Crop />
             </Container>
         </div>
     );
