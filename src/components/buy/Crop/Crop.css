@@ -1,18 +1,104 @@
-.food-header{
-    text-align: center;
-}
-.food-header nav{
-    background-color: #fff;
-    line-height: 40px;
-    font-size: 20px;
-}
-.food-header  nav a {
-    color: #cc0044;
-    margin: 20px;
-    text-decoration: none;
-    padding: 5px;
-    cursor: pointer;
- }
- .food-header nav a:hover{
-    border-bottom: 1px solid #e6004c;
+/* Container styling */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
   }
+  
+  .food-header {
+    padding: 20px 0;
+  }
+  
+  /* Navigation styling */
+  .food-nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .food-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .food-nav-list li {
+    margin: 0;
+  }
+  
+  .food-nav-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .food-nav-button.active,
+  .food-nav-button:hover {
+    background-color: #45a049; /* Darker green for hover and active states */
+    transform: scale(1.05);
+  }
+  
+  /* Grid styling for food items */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-4 {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-4 {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .col-md-4 {
+      width: 33.33%;
+    }
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Text styling */
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Responsive text styling */
+  @media (min-width: 576px) {
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    p {
+      font-size: 22px;
+    }
+  }
+  
