@@ -48,7 +48,6 @@ export default function SelectDropdown() {
           </Col>
         </Row>
       </Container>
-
       <TotalSchemeCard state={selectedState} data={schemeData} />
     </>
   );
