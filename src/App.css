@@ -3,8 +3,6 @@
 #root{
   min-height: 100vh;
 }
-
-
 .body{
    background-color:#D1E8B6; 
   background-image:url('./images/farmer.jpg');
@@ -18,9 +16,8 @@
 .nav-bar{
   font-family: 'Montserrat', sans-serif;
   color:white;
-  
-}
 
+}
 
 #card{
   background-color:#D1E8B6;
