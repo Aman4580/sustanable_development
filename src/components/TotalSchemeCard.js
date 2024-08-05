@@ -6,8 +6,7 @@ import SchemeCard1 from "./SchemeCard1";
 
 export default function SelectDropdown(props) {
   const { data, state } = props;
-  
-  // Determine heading based on the state
+
   const heading = state === "" ? "All India" : state;
 
   return (
